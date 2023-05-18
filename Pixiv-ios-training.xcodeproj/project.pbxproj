@@ -18,6 +18,8 @@
 		B2350F232A1602CF00AAD775 /* Pixiv_ios_trainingUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2350F222A1602CF00AAD775 /* Pixiv_ios_trainingUITestsLaunchTests.swift */; };
 		B2350F302A16086400AAD775 /* IllustCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2350F2F2A16086400AAD775 /* IllustCell.swift */; };
 		B2350F342A1614B600AAD775 /* IllustCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B2350F332A1614B600AAD775 /* IllustCell.xib */; };
+		B2350F382A161D5900AAD775 /* HeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2350F372A161D5800AAD775 /* HeaderCell.swift */; };
+		B2350F3A2A161DB100AAD775 /* HeaderCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B2350F392A161DB100AAD775 /* HeaderCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,8 @@
 		B2350F222A1602CF00AAD775 /* Pixiv_ios_trainingUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pixiv_ios_trainingUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		B2350F2F2A16086400AAD775 /* IllustCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IllustCell.swift; sourceTree = "<group>"; };
 		B2350F332A1614B600AAD775 /* IllustCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = IllustCell.xib; sourceTree = "<group>"; };
+		B2350F372A161D5800AAD775 /* HeaderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderCell.swift; sourceTree = "<group>"; };
+		B2350F392A161DB100AAD775 /* HeaderCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HeaderCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +112,8 @@
 				B2350F032A1602CD00AAD775 /* MainViewController.swift */,
 				B2350F2F2A16086400AAD775 /* IllustCell.swift */,
 				B2350F332A1614B600AAD775 /* IllustCell.xib */,
+				B2350F372A161D5800AAD775 /* HeaderCell.swift */,
+				B2350F392A161DB100AAD775 /* HeaderCell.xib */,
 				B2350F052A1602CE00AAD775 /* Main.storyboard */,
 				B2350F082A1602CF00AAD775 /* Assets.xcassets */,
 				B2350F0A2A1602CF00AAD775 /* LaunchScreen.storyboard */,
@@ -237,6 +243,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B2350F3A2A161DB100AAD775 /* HeaderCell.xib in Resources */,
 				B2350F342A1614B600AAD775 /* IllustCell.xib in Resources */,
 				B2350F0C2A1602CF00AAD775 /* LaunchScreen.storyboard in Resources */,
 				B2350F092A1602CF00AAD775 /* Assets.xcassets in Resources */,
@@ -266,6 +273,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B2350F302A16086400AAD775 /* IllustCell.swift in Sources */,
+				B2350F382A161D5900AAD775 /* HeaderCell.swift in Sources */,
 				B2350F042A1602CD00AAD775 /* MainViewController.swift in Sources */,
 				B2350F002A1602CD00AAD775 /* AppDelegate.swift in Sources */,
 				B2350F022A1602CD00AAD775 /* SceneDelegate.swift in Sources */,
