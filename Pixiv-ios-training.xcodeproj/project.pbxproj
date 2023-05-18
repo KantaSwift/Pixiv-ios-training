@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B2350F002A1602CD00AAD775 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2350EFF2A1602CD00AAD775 /* AppDelegate.swift */; };
+		B2350F022A1602CD00AAD775 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2350F012A1602CD00AAD775 /* SceneDelegate.swift */; };
+		B2350F042A1602CD00AAD775 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2350F032A1602CD00AAD775 /* ViewController.swift */; };
+		B2350F072A1602CE00AAD775 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2350F052A1602CE00AAD775 /* Main.storyboard */; };
+		B2350F092A1602CF00AAD775 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2350F082A1602CF00AAD775 /* Assets.xcassets */; };
+		B2350F0C2A1602CF00AAD775 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2350F0A2A1602CF00AAD775 /* LaunchScreen.storyboard */; };
+		B2350F172A1602CF00AAD775 /* Pixiv_ios_trainingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2350F162A1602CF00AAD775 /* Pixiv_ios_trainingTests.swift */; };
+		B2350F212A1602CF00AAD775 /* Pixiv_ios_trainingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2350F202A1602CF00AAD775 /* Pixiv_ios_trainingUITests.swift */; };
+		B2350F232A1602CF00AAD775 /* Pixiv_ios_trainingUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2350F222A1602CF00AAD775 /* Pixiv_ios_trainingUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B2350F132A1602CF00AAD775 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B2350EF42A1602CD00AAD775 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B2350EFB2A1602CD00AAD775;
+			remoteInfo = "Pixiv-ios-training";
+		};
+		B2350F1D2A1602CF00AAD775 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B2350EF42A1602CD00AAD775 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B2350EFB2A1602CD00AAD775;
+			remoteInfo = "Pixiv-ios-training";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B2350EFC2A1602CD00AAD775 /* Pixiv-ios-training.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pixiv-ios-training.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2350EFF2A1602CD00AAD775 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B2350F012A1602CD00AAD775 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B2350F032A1602CD00AAD775 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B2350F062A1602CE00AAD775 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B2350F082A1602CF00AAD775 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B2350F0B2A1602CF00AAD775 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B2350F0D2A1602CF00AAD775 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B2350F122A1602CF00AAD775 /* Pixiv-ios-trainingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pixiv-ios-trainingTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2350F162A1602CF00AAD775 /* Pixiv_ios_trainingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pixiv_ios_trainingTests.swift; sourceTree = "<group>"; };
+		B2350F1C2A1602CF00AAD775 /* Pixiv-ios-trainingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pixiv-ios-trainingUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2350F202A1602CF00AAD775 /* Pixiv_ios_trainingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pixiv_ios_trainingUITests.swift; sourceTree = "<group>"; };
+		B2350F222A1602CF00AAD775 /* Pixiv_ios_trainingUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pixiv_ios_trainingUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B2350EF92A1602CD00AAD775 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2350F0F2A1602CF00AAD775 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2350F192A1602CF00AAD775 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B2350EF32A1602CD00AAD775 = {
+			isa = PBXGroup;
+			children = (
+				B2350EFE2A1602CD00AAD775 /* Pixiv-ios-training */,
+				B2350F152A1602CF00AAD775 /* Pixiv-ios-trainingTests */,
+				B2350F1F2A1602CF00AAD775 /* Pixiv-ios-trainingUITests */,
+				B2350EFD2A1602CD00AAD775 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B2350EFD2A1602CD00AAD775 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B2350EFC2A1602CD00AAD775 /* Pixiv-ios-training.app */,
+				B2350F122A1602CF00AAD775 /* Pixiv-ios-trainingTests.xctest */,
+				B2350F1C2A1602CF00AAD775 /* Pixiv-ios-trainingUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B2350EFE2A1602CD00AAD775 /* Pixiv-ios-training */ = {
+			isa = PBXGroup;
+			children = (
+				B2350EFF2A1602CD00AAD775 /* AppDelegate.swift */,
+				B2350F012A1602CD00AAD775 /* SceneDelegate.swift */,
+				B2350F032A1602CD00AAD775 /* ViewController.swift */,
+				B2350F052A1602CE00AAD775 /* Main.storyboard */,
+				B2350F082A1602CF00AAD775 /* Assets.xcassets */,
+				B2350F0A2A1602CF00AAD775 /* LaunchScreen.storyboard */,
+				B2350F0D2A1602CF00AAD775 /* Info.plist */,
+			);
+			path = "Pixiv-ios-training";
+			sourceTree = "<group>";
+		};
+		B2350F152A1602CF00AAD775 /* Pixiv-ios-trainingTests */ = {
+			isa = PBXGroup;
+			children = (
+				B2350F162A1602CF00AAD775 /* Pixiv_ios_trainingTests.swift */,
+			);
+			path = "Pixiv-ios-trainingTests";
+			sourceTree = "<group>";
+		};
+		B2350F1F2A1602CF00AAD775 /* Pixiv-ios-trainingUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B2350F202A1602CF00AAD775 /* Pixiv_ios_trainingUITests.swift */,
+				B2350F222A1602CF00AAD775 /* Pixiv_ios_trainingUITestsLaunchTests.swift */,
+			);
+			path = "Pixiv-ios-trainingUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B2350EFB2A1602CD00AAD775 /* Pixiv-ios-training */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B2350F262A1602CF00AAD775 /* Build configuration list for PBXNativeTarget "Pixiv-ios-training" */;
+			buildPhases = (
+				B2350EF82A1602CD00AAD775 /* Sources */,
+				B2350EF92A1602CD00AAD775 /* Frameworks */,
+				B2350EFA2A1602CD00AAD775 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pixiv-ios-training";
+			productName = "Pixiv-ios-training";
+			productReference = B2350EFC2A1602CD00AAD775 /* Pixiv-ios-training.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B2350F112A1602CF00AAD775 /* Pixiv-ios-trainingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B2350F292A1602CF00AAD775 /* Build configuration list for PBXNativeTarget "Pixiv-ios-trainingTests" */;
+			buildPhases = (
+				B2350F0E2A1602CF00AAD775 /* Sources */,
+				B2350F0F2A1602CF00AAD775 /* Frameworks */,
+				B2350F102A1602CF00AAD775 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B2350F142A1602CF00AAD775 /* PBXTargetDependency */,
+			);
+			name = "Pixiv-ios-trainingTests";
+			productName = "Pixiv-ios-trainingTests";
+			productReference = B2350F122A1602CF00AAD775 /* Pixiv-ios-trainingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B2350F1B2A1602CF00AAD775 /* Pixiv-ios-trainingUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B2350F2C2A1602CF00AAD775 /* Build configuration list for PBXNativeTarget "Pixiv-ios-trainingUITests" */;
+			buildPhases = (
+				B2350F182A1602CF00AAD775 /* Sources */,
+				B2350F192A1602CF00AAD775 /* Frameworks */,
+				B2350F1A2A1602CF00AAD775 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B2350F1E2A1602CF00AAD775 /* PBXTargetDependency */,
+			);
+			name = "Pixiv-ios-trainingUITests";
+			productName = "Pixiv-ios-trainingUITests";
+			productReference = B2350F1C2A1602CF00AAD775 /* Pixiv-ios-trainingUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B2350EF42A1602CD00AAD775 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					B2350EFB2A1602CD00AAD775 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					B2350F112A1602CF00AAD775 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = B2350EFB2A1602CD00AAD775;
+					};
+					B2350F1B2A1602CF00AAD775 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = B2350EFB2A1602CD00AAD775;
+					};
+				};
+			};
+			buildConfigurationList = B2350EF72A1602CD00AAD775 /* Build configuration list for PBXProject "Pixiv-ios-training" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B2350EF32A1602CD00AAD775;
+			productRefGroup = B2350EFD2A1602CD00AAD775 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B2350EFB2A1602CD00AAD775 /* Pixiv-ios-training */,
+				B2350F112A1602CF00AAD775 /* Pixiv-ios-trainingTests */,
+				B2350F1B2A1602CF00AAD775 /* Pixiv-ios-trainingUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B2350EFA2A1602CD00AAD775 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2350F0C2A1602CF00AAD775 /* LaunchScreen.storyboard in Resources */,
+				B2350F092A1602CF00AAD775 /* Assets.xcassets in Resources */,
+				B2350F072A1602CE00AAD775 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2350F102A1602CF00AAD775 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2350F1A2A1602CF00AAD775 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B2350EF82A1602CD00AAD775 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2350F042A1602CD00AAD775 /* ViewController.swift in Sources */,
+				B2350F002A1602CD00AAD775 /* AppDelegate.swift in Sources */,
+				B2350F022A1602CD00AAD775 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2350F0E2A1602CF00AAD775 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2350F172A1602CF00AAD775 /* Pixiv_ios_trainingTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2350F182A1602CF00AAD775 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2350F212A1602CF00AAD775 /* Pixiv_ios_trainingUITests.swift in Sources */,
+				B2350F232A1602CF00AAD775 /* Pixiv_ios_trainingUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B2350F142A1602CF00AAD775 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B2350EFB2A1602CD00AAD775 /* Pixiv-ios-training */;
+			targetProxy = B2350F132A1602CF00AAD775 /* PBXContainerItemProxy */;
+		};
+		B2350F1E2A1602CF00AAD775 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B2350EFB2A1602CD00AAD775 /* Pixiv-ios-training */;
+			targetProxy = B2350F1D2A1602CF00AAD775 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B2350F052A1602CE00AAD775 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B2350F062A1602CE00AAD775 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B2350F0A2A1602CF00AAD775 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B2350F0B2A1602CF00AAD775 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B2350F242A1602CF00AAD775 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B2350F252A1602CF00AAD775 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B2350F272A1602CF00AAD775 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N4KYPFFB9X;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Pixiv-ios-training/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kamijo.Pixiv-ios-training";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B2350F282A1602CF00AAD775 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N4KYPFFB9X;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Pixiv-ios-training/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kamijo.Pixiv-ios-training";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B2350F2A2A1602CF00AAD775 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N4KYPFFB9X;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kamijo.Pixiv-ios-trainingTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pixiv-ios-training.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Pixiv-ios-training";
+			};
+			name = Debug;
+		};
+		B2350F2B2A1602CF00AAD775 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N4KYPFFB9X;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kamijo.Pixiv-ios-trainingTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pixiv-ios-training.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Pixiv-ios-training";
+			};
+			name = Release;
+		};
+		B2350F2D2A1602CF00AAD775 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N4KYPFFB9X;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kamijo.Pixiv-ios-trainingUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Pixiv-ios-training";
+			};
+			name = Debug;
+		};
+		B2350F2E2A1602CF00AAD775 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N4KYPFFB9X;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kamijo.Pixiv-ios-trainingUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Pixiv-ios-training";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B2350EF72A1602CD00AAD775 /* Build configuration list for PBXProject "Pixiv-ios-training" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2350F242A1602CF00AAD775 /* Debug */,
+				B2350F252A1602CF00AAD775 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B2350F262A1602CF00AAD775 /* Build configuration list for PBXNativeTarget "Pixiv-ios-training" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2350F272A1602CF00AAD775 /* Debug */,
+				B2350F282A1602CF00AAD775 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B2350F292A1602CF00AAD775 /* Build configuration list for PBXNativeTarget "Pixiv-ios-trainingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2350F2A2A1602CF00AAD775 /* Debug */,
+				B2350F2B2A1602CF00AAD775 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B2350F2C2A1602CF00AAD775 /* Build configuration list for PBXNativeTarget "Pixiv-ios-trainingUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2350F2D2A1602CF00AAD775 /* Debug */,
+				B2350F2E2A1602CF00AAD775 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B2350EF42A1602CD00AAD775 /* Project object */;
+}
