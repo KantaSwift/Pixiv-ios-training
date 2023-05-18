@@ -8,10 +8,21 @@
 import UIKit
 
 final class HeaderCell: UICollectionReusableView {
-    
-    @IBOutlet weak var HeaderTitle: UILabel!
-    
-    override func awakeFromNib() {
-        super.awakeFromNib()
+   
+    //修正前: HeaderTitle
+    @IBOutlet private weak var label: UILabel!
+   
+    func bind(_ title: String) {
+        label.text = title
     }
+    
+//    override func awakeFromNib() {
+//        super.awakeFromNib()
+//    }
 }
+
+
+/*
+ ポイント
+ @IBOutletを直接いじるのではなく、privateにして外部からテキストを設定する
+ */
